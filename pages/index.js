@@ -1,5 +1,5 @@
 import Head from 'next/head' // For HTML Head Tags
-// import styles from '../styles/Layout.module.css'
+import styles from '../styles/Layout.module.css'
 
 export default function Home() {
   return (
