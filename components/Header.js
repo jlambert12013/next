@@ -1,16 +1,9 @@
-const Header = () => {
-  const x = 3
+import headerStyles from '../styles/Header.module.css'
 
+const Header = () => {
   return (
     <>
-      <p className="title">Header</p>
-      {/* <style jsx>
-        {`
-          .title {
-            color: ${x > 3 ? 'red' : 'blue'};
-          }
-        `}
-      </style> */}
+      <p className={headerStyles.title}>Header</p>
     </>
   )
 }
